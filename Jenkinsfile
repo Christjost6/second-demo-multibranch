@@ -12,6 +12,7 @@ pipeline{
 				stage('sub-job1'){
 					steps{
 						echo "sub-job1 task"
+						echo "testing second-demo"
 					}
 				}
 				stage('sub-job2'){
